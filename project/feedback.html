@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="feedback.css">
+   
+    <title>Feedback</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/logo.png" width="166" height="96" alt="">
+        </div>
+        <div class="phone">
+            <h1>8 800 100 56 03</h1>
+            <h2>Контакт-центр ТФОМС</h2>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <a id="nav" href="main.html">Главная</a>
+            <a id="nav" href="not_found.html">О фонде</a>
+            <a id="nav" href="not_found.html">Пациенту</a>
+            <a id="nav" href="not_found.html">Реестры</a>
+            <a id="nav" href="not_found.html">Документы</a>
+            <a id="nav" href="not_found.html">Сервисы</a>
+            <a id="nav" href="not_found.html">Диспансеризация</a>
+            <a id="nav" href="not_found.html">Блог</a>
+        </ul>
+    </nav>
+    <main>
+        <h1>Написать обращение территориальному фонду ОМС Оренбургской области</h1>
+        <div class="light">
+            <p>Официальный портал ТФОМС Оренбургской области является дополнительным средством для обеспечения
+                возможности подачи обращений граждан по вопросам, входящим в компетенцию ТФОМС Оренбургской области.
+                </br>
+                </br>
+                Обращения граждан, направленные в электронном виде через официальный портал ТФОМС Оренбургской области,
+                обрабатываются отделом по защите прав граждан.</p>
+        </div>
+        <form action="feedback.html" method="">
+            <div class="main_inf">
+            <h2>Данные для связи с вами</h2>
+            <input placeholder="ФИО" type="text">
+            <input placeholder="Номер телефона" type="number">
+            <input placeholder="Эл.почта" type="email">
+            <input placeholder="Доп.информация" type="text">
+            </div>
+            <div class="type_feedback">
+                <h2>Выберите категорию вашего обращения</h2>
+                <select aria-placeholder="Выбрать категорию" name="123" id="">
+                    <option value="">Контент в интернете</option>
+                    <option value="">Обязательное медстрахование (ОМС)</option>
+                    <option value="">Государственные услуги в сфере ОМС</option>
+                    <option value="">Иное</option>
+                </select>
+            </div>
+            <div class="more_inf">
+                <h2>Опишите суть вашего обращения</h2>
+                <textarea name="" id=""></textarea>
+            </div>
+            <div class="file_input">
+                <h2>Вы можете прикрепить файлы к вашему обращению</h2>
+                <div class="input-file-row">
+                    <label class="input-file">
+                           <input type="file" name="file[]" multiple accept="image/*">		
+                           <span><img src="image/image_input.png" width="236" height="130" alt=""></span>
+                     </label>
+                    <div class="input-file-list"></div>  
+                </div>
+            </div>
+            <div class="user_accept">
+                <label class="checkbox_input">
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+                <p>Я соглашаюсь с правилами подачи сообщений и обращений</p>
+            </div>
+            <input class="btn" type="submit">
+        </form>
+    </main>
+    <footer>
+        <div class="foot_inf">
+            <h1>Территориальный фонд ОМС
+                Оренбургской области</h1>
+            <h2>г. Оренбург, пер.Фабричный, 19 </br>
+                тел.: +7 (3532) 98-15-02 </br>
+                факс: +7 (3532) 98-15-75 </br>
+                Эл. почта: office@orenfoms.ru</h2>
+        </div>
+        <div class="link">
+            <a href=""><img src="image/soc.png" width="84" alt=""></a>
+            <a href=""><img src="image/fns.png" width="71" alt=""></a>
+            <a href=""><img src="image/rus.png" width="61" alt=""></a>
+            <a href=""><img src="image/gos.png" width="59" alt=""></a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+h1 {
+    box-sizing: border-box;
+    color: #0041BA;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0;
+}
+
+h2 {
+    box-sizing: border-box;
+    color: #0041BA;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0;
+}
+
+
+
+body {
+    margin: 0;
+
+}
+
+header {
+    box-sizing: border-box;
+    margin: 11px 100px 11px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    background-color: #0041BA;
+    box-sizing: border-box;
+    width: 100%;
+    height: 32px;
+    justify-content: center;
+}
+
+nav ul {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 113px 0 113px;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+}
+
+#nav {
+
+    display: flex;
+    align-items: center;
+    height: 32px;
+    list-style: none;
+    padding: 0 20px 0 20px;
+    margin: 0 25px 0 25px;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: small;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#nav:hover {
+    transition: 0.5s;
+    color: #0041BA;
+    background-color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main h1{
+        box-sizing: border-box;
+        color: #0041BA;
+        font-family: "Inter", sans-serif;
+        font-size: 128px;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        margin: 60px 0 0 0;
+    }
+    
+main h2 {
+        box-sizing: border-box;
+        color: #0041BA;
+        font-family: "Inter", sans-serif;
+        font-size: 48px;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        margin: 0;
+    }
+    
+
+
+
+footer {
+    margin-top: 29px;
+    background-color: #00102E;
+    padding: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.foot_inf h1 {
+    padding: 18px 0 0 0;
+    width: 263px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.foot_inf h2 {
+    padding: 18px 0 26px 0;
+    width: 276px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.link {
+    padding: 94px 0 26px 0;
+
+}
+
+.link a {
+    padding-left: 15px;
+}
